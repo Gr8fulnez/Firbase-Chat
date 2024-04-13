@@ -26,14 +26,89 @@ const Chat = () => {
           <img src="./info.png" alt="" />
         </div>
       </div>
-      <div className="center"></div>
+      <div className="center">
+        <div className="message">
+          <img src="./avatar.png" alt="" />
+          <div className="texts">
+            <p>
+              sdnsdnsd sjdnsdjnjsd sjdnsdnskdnsd sdnsdnsd sjdnsdjnjsd
+              sjdnsdnskdnsdsdnsdnsd sjdnsdjnjsd sjdnsdnskdnsdsdnsdnsd
+              sjdnsdjnjsd sjdnsdnskdnsdsdnsdnsd sjdnsdjnjsd
+              sjdnsdnskdnsdsdnsdnsd sjdnsdjnjsd sjdnsdnskdnsdsdnsdnsd
+              sjdnsdjnjsd sjdnsdnskdnsdsdnsdnsd sjdnsdjnjsd sjdnsdnskdnsd
+            </p>
+            <span>1 min ago</span>
+          </div>
+        </div>
+        <div className="message own">
+          <img src="./avatar.png" alt="" />
+          <div className="texts">
+            <p>
+              sdnsdnsd sjdnsdjnjsd sjdnsdnskdnsd sdnsdnsd sjdnsdjnjsd
+              sjdnsdnskdnsdsdnsdnsd sjdnsdjnjsd sjdnsdnskdnsdsdnsdnsd
+              sjdnsdjnjsd sjdnsdnskdnsdsdnsdnsd sjdnsdjnjsd
+              sjdnsdnskdnsdsdnsdnsd sjdnsdjnjsd sjdnsdnskdnsdsdnsdnsd
+              sjdnsdjnjsd sjdnsdnskdnsdsdnsdnsd sjdnsdjnjsd sjdnsdnskdnsd
+            </p>
+            <span>1 min ago</span>
+          </div>
+        </div>
+        <div className="message">
+          <img src="./avatar.png" alt="" />
+          <div className="texts">
+            <p>
+              sdnsdnsd sjdnsdjnjsd sjdnsdnskdnsd sdnsdnsd sjdnsdjnjsd
+              sjdnsdnskdnsdsdnsdnsd sjdnsdjnjsd sjdnsdnskdnsdsdnsdnsd
+              sjdnsdjnjsd sjdnsdnskdnsdsdnsdnsd sjdnsdjnjsd
+              sjdnsdnskdnsdsdnsdnsd sjdnsdjnjsd sjdnsdnskdnsdsdnsdnsd
+              sjdnsdjnjsd sjdnsdnskdnsdsdnsdnsd sjdnsdjnjsd sjdnsdnskdnsd
+            </p>
+            <span>1 min ago</span>
+          </div>
+        </div>
+        <div className="message own">
+          <img src="./avatar.png" alt="" />
+          <div className="texts">
+            <img
+              src="https://images.pexels.com/photos/16906951/pexels-photo-16906951/free-photo-of-knob-on-camera.jpeg"
+              alt=""
+            />
+            <p>
+              sdnsdnsd sjdnsdjnjsd sjdnsdnskdnsd sdnsdnsd sjdnsdjnjsd
+              sjdnsdnskdnsdsdnsdnsd sjdnsdjnjsd sjdnsdnskdnsdsdnsdnsd
+              sjdnsdjnjsd sjdnsdnskdnsdsdnsdnsd sjdnsdjnjsd
+              sjdnsdnskdnsdsdnsdnsd sjdnsdjnjsd sjdnsdnskdnsdsdnsdnsd
+              sjdnsdjnjsd sjdnsdnskdnsdsdnsdnsd sjdnsdjnjsd sjdnsdnskdnsd
+            </p>
+            <span>1 min ago</span>
+          </div>
+        </div>
+        <div className="message">
+          <img src="./avatar.png" alt="" />
+          <div className="texts">
+            <p>
+              sdnsdnsd sjdnsdjnjsd sjdnsdnskdnsd sdnsdnsd sjdnsdjnjsd
+              sjdnsdnskdnsdsdnsdnsd sjdnsdjnjsd sjdnsdnskdnsdsdnsdnsd
+              sjdnsdjnjsd sjdnsdnskdnsdsdnsdnsd sjdnsdjnjsd
+              sjdnsdnskdnsdsdnsdnsd sjdnsdjnjsd sjdnsdnskdnsdsdnsdnsd
+              sjdnsdjnjsd sjdnsdnskdnsdsdnsdnsd sjdnsdjnjsd sjdnsdnskdnsd
+            </p>
+            <span>1 min ago</span>
+          </div>
+        </div>
+      </div>
       <div className="bottom">
         <div className="icons">
           <img src="./img.png" alt="" />
           <img src="./camera.png" alt="" />
           <img src="./mic.png" alt="" />
         </div>
-        <input type="text" placeholder="Type a message..." value={text} onChange={(e) => setText(e.target.value)}/>
+        <input
+          type="text"
+          placeholder="Type a message..."
+          value={text}
+          onChange={(e) => setText(e.target.value)}
+        />
         <div className="emoji">
           <img
             src="./emoji.png"
