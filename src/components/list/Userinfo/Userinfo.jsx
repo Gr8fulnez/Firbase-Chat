@@ -4,9 +4,9 @@ import "./userInfo.css";
 const Userinfo = () => {
   return (
     <div className="userInfo">
-      <div>
+      <div className="user">
         <img src="./avatar.png" alt="" />
-        <h2>John Doe</h2>
+        <p>John Doe</p>
       </div>
       <div className="icons">
         <img src="./more.png" alt="" />
