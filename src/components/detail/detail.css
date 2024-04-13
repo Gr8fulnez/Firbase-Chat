@@ -1,12 +1,11 @@
 .detail {
   flex: 1;
-  /* overflow: scroll; */
   .user {
     padding: 30px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 15px;
     border-bottom: 1px solid #dddddd35;
 
     img {
@@ -16,12 +15,12 @@
       object-fit: cover;
     }
   }
-
+ 
   .info {
     padding: 20px;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 25px;
     .option {
       .title {
         display: flex;
@@ -41,7 +40,7 @@
       .photos {
         display: flex;
         flex-direction: column;
-        gap: 20px;
+        gap: 15px;
         margin-top: 20px;
         .photoItem {
           display: flex;
@@ -77,7 +76,7 @@
     }
 
     button {
-      padding: 10px 20px;
+      padding: 15px;
       background-color: rgba(230, 74, 105, 0.553);
       color: white;
       border: none;
@@ -86,6 +85,11 @@
 
       &:hover {
         background-color: rgba(220, 20, 60, 0.796);
+      }
+
+      &.logout{
+        padding: 10px;
+        background-color: #1a73e8;
       }
     }
   }
