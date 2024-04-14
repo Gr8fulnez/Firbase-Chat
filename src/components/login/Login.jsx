@@ -15,11 +15,10 @@ const Login = () => {
       });
     }
   };
-    
-    const handleLogin = e => {
-        e.preventDefault()
-        toast.warn('hello');
-  }
+
+  const handleLogin = (e) => {
+    e.preventDefault();
+  };
   return (
     <div className="login">
       <div className="item">
