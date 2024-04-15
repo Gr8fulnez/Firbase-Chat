@@ -6,7 +6,6 @@ const Userinfo = () => {
 
   const { currentUser } = useUserStore();
 
-  console.log(currentUser)
   return (
     <div className="userInfo">
       <div className="user">
